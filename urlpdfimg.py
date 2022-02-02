@@ -55,3 +55,8 @@ def cli(url, output_dir):
     ]
     click.echo('Extracting images...')
     call(command)
+
+
+if __name__ == "__main__":
+    cli()
+
